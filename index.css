@@ -1,8 +1,10 @@
+body {
+  color: whitesmoke;
+  text-shadow: #fc0 1px 0 10px;
+}
 input {
   border: none;
   background: none;
-  color: whitesmoke;
-  text-shadow: #fc0 1px 0 10px;
   text-align: center;
 }
 input:focus {
@@ -21,8 +23,6 @@ input::selection {
   justify-content: center;
 }
 .clock__time {
-  color: whitesmoke;
-  text-shadow: #fc0 1px 0 10px;
   font-size: 150px;
   font-weight: 700;
   display: flex;
@@ -42,14 +42,14 @@ input::selection {
 .input__name {
   font-size: 50px;
   font-weight: 500;
+  color: whitesmoke;
+  text-shadow: #fc0 1px 0 10px;
 }
 
 .greetings {
   font-size: 50px;
   background: none;
   font-weight: 600;
-  color: whitesmoke;
-  text-shadow: #fc0 1px 0 10px;
   margin-top: 0px;
 }
 .input__toDo {
@@ -110,5 +110,7 @@ button:hover {
 }
 .js-weather {
   position: absolute;
-  top: 0;
+  top: 5px;
+  right: 5px;
+  font-size: 25px;
 }
