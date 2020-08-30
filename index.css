@@ -2,6 +2,9 @@ body {
   color: whitesmoke;
   text-shadow: #fc0 1px 0 10px;
 }
+body::selection {
+  background-color: whitesmoke;
+}
 input {
   border: none;
   background: none;
